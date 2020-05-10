@@ -1,0 +1,45 @@
+.headerImg{
+    background-image: url('../components/images/header-bg.jpg') ;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 180px;
+   
+}
+.scroll{
+    overflow-y: scroll;
+}
+ion-toolbar{
+    background: rgba(red, green, blue,0.0);
+    height: 100%;
+}
+#langMenu{
+    text-align: center;
+    /* margin-bottom: 8px; */
+}
+#langMenu a{
+    padding: 2px;
+    font-size: 13px;
+    text-decoration: none;
+}
+#langMenu >a:first-of-type, #langMenu >a:nth-of-type(2){
+    
+    color: black;
+}
+.img-md{
+    margin-top: 20px;
+    width:100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.userImg{
+    flex:0 0 200px;
+    width:400px;
+    border-radius: 55%;
+}
+.inpt{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-column-gap: 10px;
+}
